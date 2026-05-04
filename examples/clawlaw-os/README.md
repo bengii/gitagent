@@ -37,7 +37,7 @@ Fallbacks activate on 429 or timeout — never because a task "seems complex."
 ## gitagent Structure
 
 ```
-jason-my-claw-is-the-law-deebee-4567b4/
+clawlaw-os/
 ├── agent.yaml                          # Manifest with ClawLaw config
 ├── SOUL.md                             # Voice, decision rules, budget limits
 ├── RULES.md                            # ClawLaw hard rules
@@ -55,10 +55,10 @@ jason-my-claw-is-the-law-deebee-4567b4/
 
 ```bash
 # Install gitagent
-npm install -g @shreyaskapale/gitagent
+npm install -g @open-gitagent/gapman
 
 # Clone this agent
-gitagent clone open-gitagent/gitagent examples/jason-my-claw-is-the-law-deebee-4567b4 my-jason
+gitagent clone open-gitagent/gitagent examples/clawlaw-os my-jason
 
 # Review the rules before running
 cat my-jason/RULES.md
